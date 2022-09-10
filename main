@@ -1,14 +1,14 @@
 <html>
 <h1 class="center"> Follow Up Survey </h1> <!--class center will be created inthe style folder and will be used to allign the title-->
 <body>
-    <table width="100%">
+    <table width="50%">
 
         <tr>
             <td>
-                When did you use our service?
+                <h4>When did you use our service?</h4>
             </td>
             <td>
-                Name of product or service:
+                <h4>Name of product or service:</h4>
             </td>
         </tr>
 
@@ -23,7 +23,40 @@
         </tr>
 
     </table>
-    <h3>Overall, </h3>
+
+    <h4>Overall, how satisfied are you with the product or service?</h4>
+
+    <table width="50%">
+        <tr>
+           <td>
+
+                <input type="radio" id="1" name="user_satifaction" value="Very Satisfied">
+                <label for="1"> </label>Very Satisfied</label> <br>
+
+                <input type="radio" id="2" name="user_satifaction" value="Neutral">
+                <label for="2"> </label>Neutral</label> <br>
+
+                <input type="radio" id="3" name="user_satifaction" value="Very Unsatisfied">
+                <label for="3"> </label>Very Unsatisfied</label> <br>
+
+            </td> 
+
+            <td>
+                <input type="radio" id="4" name="user_satifaction" value="Satisfied">
+                <label for="4"> </label>Satisfied</label> <br>
+    
+                <input type="radio" id="5" name="user_satifaction" value="Unsatisfied">
+                <label for="5"> </label>Unsatisfied</label> <br>
+    
+                <input type="radio" id="6" name="user_satifaction" value="N/A">
+                <label for="6"> </label>N/A</label> <br> 
+
+            </td>
+
+        </tr>
+          
+    
+    </table>
 
 </body>
 </html>
