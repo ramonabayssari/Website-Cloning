@@ -1,0 +1,24 @@
+.red{
+    color:darkred;
+}
+
+.back-gray{
+    background-color: lightgray;
+}
+
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.sub-but{
+    background-color: rgb(78, 76, 76);
+    border: none;
+    padding: 15px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    border-radius: 8px;
+    
+}
