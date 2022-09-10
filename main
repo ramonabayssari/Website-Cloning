@@ -2,26 +2,37 @@
 
 <link rel="stylesheet" href="style.css"> 
 <h1 class="center red font"> Follow Up Survey </h1> <!--class center will be created inthe style folder and will be used to allign the title-->
-<body ><form class="back-gray">
-    
-    <table width="40%" class="red font">
+<body class="center"><form class="back-gray">
+    <center>
+    <table width="40%" class="red font center">
 
         <tr>
+            
+            <td></td>
             <td>
                 <h4>When did you use our service?</h4>
             </td>
+
             <td>
                 <h4>Name of product or service:</h4>
             </td>
+            
+            <td></td>
+           
         </tr>
 
         <tr>
+            
+            <td></td>
             <td>
                <input type="date"> 
             </td>
+
             <td>
                 <input type="text">
             </td>
+           
+            <td></td>
 
         </tr>
 
@@ -29,6 +40,7 @@
 
     <h4 class="red font">Overall, how satisfied are you with the product or service?</h4>
 
+    
     <table width="35%" class="red font">
         <tr>
            <td>
@@ -81,7 +93,7 @@
     </table>
 
     <h4 class="red font">What aspect of the product or service were you most satisfied by? </h4>
-    <table width="50%" class="red font">
+    <table width="35%" class="red font">
         <tr>
            <td>
 
@@ -110,7 +122,7 @@
     </table>
 
     <h4 class="red font">What aspect of the product or service were you least satisfied by? </h4>
-    <table width="50%" class="red font">
+    <table width="35%" class="red font">
         <tr>
            <td>
 
@@ -144,6 +156,9 @@
     <br/>
     <br/>
     <input type="submit" value="Submit" class="center sub-but">
+    <br/>
+    <br/>
+</center>
 </form>
 </body>
 </html>
