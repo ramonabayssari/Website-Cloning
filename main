@@ -30,26 +30,26 @@
         <tr>
            <td>
 
-                <input type="radio" id="1" name="user_satifaction" value="Very Satisfied">
-                <label for="1"> </label>Very Satisfied</label> <br>
+                <input type="radio" id="v-sat" name="user_satifaction" value="Very Satisfied">
+                <label for="v-sat"> </label>Very Satisfied</label> <br>
 
-                <input type="radio" id="2" name="user_satifaction" value="Neutral">
-                <label for="2"> </label>Neutral</label> <br>
+                <input type="radio" id="neut" name="user_satifaction" value="Neutral">
+                <label for="neut"> </label>Neutral</label> <br>
 
-                <input type="radio" id="3" name="user_satifaction" value="Very Unsatisfied">
-                <label for="3"> </label>Very Unsatisfied</label> <br>
+                <input type="radio" id="v-unsat" name="user_satifaction" value="Very Unsatisfied">
+                <label for="v-unsat"> </label>Very Unsatisfied</label> <br>
 
             </td> 
 
             <td>
-                <input type="radio" id="4" name="user_satifaction" value="Satisfied">
-                <label for="4"> </label>Satisfied</label> <br>
+                <input type="radio" id="sat" name="user_satifaction" value="Satisfied">
+                <label for="sat"> </label>Satisfied</label> <br>
     
-                <input type="radio" id="5" name="user_satifaction" value="Unsatisfied">
-                <label for="5"> </label>Unsatisfied</label> <br>
+                <input type="radio" id="unsat" name="user_satifaction" value="Unsatisfied">
+                <label for="unsat"> </label>Unsatisfied</label> <br>
     
-                <input type="radio" id="6" name="user_satifaction" value="N/A">
-                <label for="6"> </label>N/A</label> <br> 
+                <input type="radio" id="na" name="user_satifaction" value="N/A">
+                <label for="na"> </label>N/A</label> <br> 
 
             </td>
 
@@ -63,16 +63,40 @@
     <table width="50%">
         <tr>
            <td>
-
                 <input type="radio" id="y" name="user_expectations" value="Yes">
                 <label for="y"> </label>Yes</label> <br>
-
-
             </td> 
 
             <td>
                 <input type="radio" id="n" name="user_expectations" value="No">
                 <label for="n"> </label>No</label> <br>
+            </td>
+
+        </tr>
+          
+    
+    </table>
+
+    <h4>Waht aspect of the product or service were you most satisfied with? </h4>
+    <table width="50%">
+        <tr>
+           <td>
+
+                <input type="radio" id="qual" name="aspect_satifaction" value="Quality">
+                <label for="qual"> </label>Quality</label> <br>
+
+                <input type="radio" id="cust-serv" name="aspect_satifaction" value="Customer Service">
+                <label for="cust-serv"> </label>Customer Service</label> <br>
+
+
+            </td> 
+
+            <td>
+                <input type="radio" id="price" name="aspect_satifaction" value="Price">
+                <label for="price"> </label>Price</label> <br>
+    
+                <input type="radio" id="installation" name="aspect_satifaction" value="Installation or first use experience">
+                <label for="installation"> </label>Installation or first use experience</label> <br>
     
 
             </td>
@@ -81,6 +105,7 @@
           
     
     </table>
+
 
 </body>
 </html>
