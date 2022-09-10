@@ -1,0 +1,27 @@
+<html>
+<h1 class="center"> Follow Up Survey </h1> <!--class center will be created inthe style folder and will be used to allign the title-->
+<body>
+    <table width="100%">
+
+        <tr>
+            <td>
+                When did you use our service?
+            </td>
+            <td>
+                Name of product or service:
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+               <input type="date"> 
+            </td>
+            <td>
+                <input type="text">
+            </td>
+
+        </tr>
+
+    </table>
+</body>
+</html>
