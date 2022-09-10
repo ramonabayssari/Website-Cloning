@@ -1,7 +1,10 @@
 <html>
-<h1 class="center"> Follow Up Survey </h1> <!--class center will be created inthe style folder and will be used to allign the title-->
-<body><form>
-    <table width="40%">
+
+<link rel="stylesheet" href="style.css"> 
+<h1 class="center red font"> Follow Up Survey </h1> <!--class center will be created inthe style folder and will be used to allign the title-->
+<body ><form class="back-gray">
+    
+    <table width="40%" class="red font">
 
         <tr>
             <td>
@@ -24,9 +27,9 @@
 
     </table>
 
-    <h4>Overall, how satisfied are you with the product or service?</h4>
+    <h4 class="red font">Overall, how satisfied are you with the product or service?</h4>
 
-    <table width="35%">
+    <table width="35%" class="red font">
         <tr>
            <td>
 
@@ -58,9 +61,9 @@
     
     </table>
 
-    <h4>Did our product or service meet your expectations? </h4>
+    <h4 class="red font">Did our product or service meet your expectations? </h4>
 
-    <table width="35%">
+    <table width="35%" class="red font">
         <tr>
            <td>
                 <input type="radio" id="y" name="user_expectations" value="Yes">
@@ -77,8 +80,8 @@
     
     </table>
 
-    <h4>What aspect of the product or service were you most satisfied by? </h4>
-    <table width="50%">
+    <h4 class="red font">What aspect of the product or service were you most satisfied by? </h4>
+    <table width="50%" class="red font">
         <tr>
            <td>
 
@@ -106,8 +109,8 @@
     
     </table>
 
-    <h4>What aspect of the product or service were you least satisfied by? </h4>
-    <table width="50%">
+    <h4 class="red font">What aspect of the product or service were you least satisfied by? </h4>
+    <table width="50%" class="red font">
         <tr>
            <td>
 
@@ -134,13 +137,13 @@
           
     </table>
 
-    <h4>
+    <h4 class="red font">
         Additional comments:
     </h4>
     <textarea placeholder=" Type here..." row="10" cols="50" name="comments"></textarea>
     <br/>
     <br/>
-    <input type="submit" value="Submit" class="center">
+    <input type="submit" value="Submit" class="center sub-but">
 </form>
 </body>
 </html>
