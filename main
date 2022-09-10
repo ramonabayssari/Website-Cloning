@@ -58,5 +58,29 @@
     
     </table>
 
+    <h4>Did our product or service meet your expectations? </h4>
+
+    <table width="50%">
+        <tr>
+           <td>
+
+                <input type="radio" id="y" name="user_expectations" value="Yes">
+                <label for="y"> </label>Yes</label> <br>
+
+
+            </td> 
+
+            <td>
+                <input type="radio" id="n" name="user_expectations" value="No">
+                <label for="n"> </label>No</label> <br>
+    
+
+            </td>
+
+        </tr>
+          
+    
+    </table>
+
 </body>
 </html>
