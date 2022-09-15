@@ -1,10 +1,10 @@
 <html>
 
 <link rel="stylesheet" href="style.css"> 
-<h1 class="center red font"> Follow Up Survey </h1> <!--class center will be created inthe style folder and will be used to allign the title-->
-<body class="center"><form class="back-gray">
-    <center>
-    <table width="40%" class="red font center">
+<center><h1 class=" red font"> Follow Up Survey </h1> </center>
+<body ><form class="back-gray ">
+   
+    <table width="80%" class="red font ">
 
         <tr>
             
@@ -41,7 +41,7 @@
     <h4 class="red font">Overall, how satisfied are you with the product or service?</h4>
 
     
-    <table width="35%" class="red font">
+    <table width="70%" class="red font">
         <tr>
            <td>
 
@@ -75,7 +75,7 @@
 
     <h4 class="red font">Did our product or service meet your expectations? </h4>
 
-    <table width="35%" class="red font">
+    <table width="75%" class="red font">
         <tr>
            <td>
                 <input type="radio" id="y" name="user_expectations" value="Yes">
@@ -92,8 +92,29 @@
     
     </table>
 
+
+    <h4 class="red font">Would you recommend this product or service to a friend?  </h4>
+
+    <table width="75%" class="red font">
+        <tr>
+           <td>
+                <input type="radio" id="y" name="user_recom" value="Yes">
+                <label for="y"> </label>Yes</label> <br>
+            </td> 
+
+            <td>
+                <input type="radio" id="n" name="user_recom" value="No">
+                <label for="n"> </label>No</label> <br>
+            </td>
+
+        </tr>
+          
+    
+    </table>
+
+
     <h4 class="red font">What aspect of the product or service were you most satisfied by? </h4>
-    <table width="35%" class="red font">
+    <table width="105%" class="red font">
         <tr>
            <td>
 
@@ -122,7 +143,7 @@
     </table>
 
     <h4 class="red font">What aspect of the product or service were you least satisfied by? </h4>
-    <table width="35%" class="red font">
+    <table width="105%" class="red font">
         <tr>
            <td>
 
@@ -152,13 +173,15 @@
     <h4 class="red font">
         Additional comments:
     </h4>
-    <textarea placeholder=" Type here..." row="10" cols="50" name="comments"></textarea>
+    <textarea placeholder=" Type here..." rows="7" cols="60" name="comments"></textarea>
     <br/>
     <br/>
+    <center>
     <input type="submit" value="Submit" class="center sub-but">
+    </center>
     <br/>
     <br/>
-</center>
+
 </form>
 </body>
 </html>
