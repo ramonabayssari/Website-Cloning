@@ -3,6 +3,10 @@ form{
     margin-right: 25%;
 }
 
+.back_darkgray{
+    background-color: rgb(117, 143, 143);
+}
+
 
 .red{
     color:darkred;
@@ -14,6 +18,11 @@ form{
 
 .font{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.fatness{
+    font-weight: 800;
+    background-color: white;
 }
 
 
