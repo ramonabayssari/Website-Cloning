@@ -4,7 +4,7 @@ form{
 }
 
 .back_darkgray{
-    background-color: rgb(117, 143, 143);
+    background-color: rgb(122, 126, 126);
 }
 
 
@@ -25,7 +25,9 @@ form{
     background-color: white;
 }
 
-
+.pad{
+    padding: 30px;
+}
 
 .sub-but{
     background-color: rgb(78, 76, 76);
